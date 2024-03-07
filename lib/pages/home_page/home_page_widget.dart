@@ -44,7 +44,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           top: true,
           child: Text(
             'blake bank - o melhor!',
-            style: FlutterFlowTheme.of(context).bodyMedium,
+            style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  fontFamily: 'Readex Pro',
+                  fontSize: 50.0,
+                ),
           ),
         ),
       ),
